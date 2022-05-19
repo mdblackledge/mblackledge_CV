@@ -3,6 +3,7 @@
 
 \usepackage{xcolor}
 \usepackage{marvosym}
+\usepackage{array}
 \usepackage{hyperref}
 \pagenumbering{gobble}
 \usepackage{afterpage}
@@ -10,6 +11,7 @@
 \definecolor{background}{HTML}{e1e1e1} 
 \definecolor{border}{HTML}{e1e1e1} 
 \usepackage[backend = biber, sorting=ydnt, maxbibnames=99]{biblatex}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 %\renewcommand{\refname}{Publications}
 
 \begin{document}
@@ -35,18 +37,20 @@
 
 \vspace*{5pt}
 
-\Mundus\hspace*{6pt}\href{https://sites.google.com/view/blackledgelab}{blackledgelab}
+\Mundus\hspace*{6pt}
+\href{https://sites.google.com/view/blackledgelab}{blackledgeimaging.co.uk}
 
 \vspace*{5pt}
 
-\faLinkedin\hspace*{4pt} \href{https://www.linkedin.com/in/matthew-blackledge-97363343/}{mdblackledge}
+\faLinkedin\hspace*{4pt} \href{https://www.linkedin.com/in/mdblackledge/}{linkedin.com/in/mdblackledge}
 
 \vspace*{5pt}
 
 \faGithub\hspace*{3pt} \href{https://github.com/mdblackledge}{mdblackledge}
 
-\sectionsep
+\vspace*{10pt}
 
+\sectionsep
 \section{Education}
 \vspace{5pt}
 \descript{Institute of \newline Cancer Research}
@@ -62,34 +66,27 @@
 \descript{Imperial College}
 \location{BSc in Physics}
 2003-2006
+
+\vspace*{10pt}
+
 \sectionsep
-
-
 \section{Programming}
 \vspace{5pt}
 \location{Languages}
  C \textbullet{}  C++ \textbullet{} Objective-C  \\
-Python \textbullet{} Python-C API \textbullet{} IDL  \\
- \LaTeX \textbullet{} R \textbullet{} HTML \textbullet{} Matlab\\
+Python \textbullet{} Python-C API   \\
+ \LaTeX \textbullet{} R \textbullet{} HTML \textbullet{} IDL\\
+ gRPC \textbullet{} Matlab\\
+ 
 \vspace{5pt}
 \location{Administrative Tools}
 Unix \textbullet{} Conda \textbullet{} Jupyter  \\
 Git \textbullet{} Confluence \textbullet{} Jira \\
-\sectionsep
 
-\section{References}
-\vspace{5pt}
-\Gentsroom\hspace*{5pt} Prof. Dow-Mu Koh \\
-\Letter\hspace*{3pt} mu.koh@icr.ac.uk \\
-\Telefon\hspace*{3pt} (+44) 208 661 3857 \\
 \vspace*{10pt}
-\Gentsroom\hspace*{5pt} Mr David J Collins \\
-\Letter\hspace*{3pt} david.collins@icr.ac.uk \\
-\Telefon\hspace*{3pt} (+44) 7773 127 132 \\
-\vspace*{10pt}
-\Gentsroom\hspace*{5pt} Dr Matthias Baumhauer \\
-\Letter\hspace*{3pt} m.baumhauer@mint-medical.com \\
-\Telefon\hspace*{3pt}  (+49) 6221 64 79 76 0 \\
+\sectionsep
+\section{Languages}
+English \textbullet{} Polish
 
 \end{minipage}}%
 \hfill
@@ -97,8 +94,24 @@ Git \textbullet{} Confluence \textbullet{} Jira \\
 
 \section{Professional Experience}
 \descript{Institute of Cancer Research}
-\location{Postdoctoral Fellow | 2015-Present}
+
+\location{Team Leader of Computational Imaging | 2019-present}
+I lead a team of 6 PhD students, 3 postdoctoral researchers and one software engineer.
+
+Here is some more text
+
 \vspace*{10pt}
+\begin{tightemize}
+
+\item Leading on the development of \textbf{whole-body MRI radiomics} and advanced \textbf{statistical inference} approaches for assessing inter-lesion response heterogeneity in patients receiving systemic therapies for advanced prostate cancer.
+
+\end{tightemize}
+
+\sectionsep
+
+\location{NIHR Postdoctoral Fellow | 2012-2019}
+\vspace*{10pt}
+
 \begin{tightemize}
 
 \item Leading on the development of \textbf{whole-body MRI radiomics} and advanced \textbf{statistical inference} approaches for assessing inter-lesion response heterogeneity in patients receiving systemic therapies for advanced prostate cancer.
@@ -111,38 +124,27 @@ Git \textbullet{} Confluence \textbullet{} Jira \\
 
 \item Steering and managing the development of new \textbf{regulatory approved software} for automatic response assessment of patients with metastatic cancer using whole-body MRI.
 
-\end{tightemize}
-\sectionsep
-
-\location{NIHR Postdoctoral Fellow | 2012-2015}
-\begin{tightemize}
 \item Developed novel \textbf{image segmentation} approaches for whole-body MRI and PET/CT in patients with advanced prostate cancer and lymphoma.
+
 \item Invented and implemented a new \textbf{software} platform (pyOsiriX) that accelerates prototyping of imaging research tools, and facilitates the interaction between imaging scientists and radiologists through a familiar image viewing platform.
+
 \item Led whole-body \textbf{MRI protocol development} and promoted its use within multi-center clinical trials. 
+
 \end{tightemize}
+
 \sectionsep
 
 \location{Postdoctoral Researcher | 2011-2012}
+
 \begin{tightemize}
+
 \item Investigated \textbf{multi-modality imaging} (PET/MRI) for monitoring the response of Lymphoma to chemotherapy.
+
 \item Developed spatial \textbf{registration strategies} for sequential MRI and PET studies.
+
 \end{tightemize}
-\sectionsep
-
-\section{Grants}
-\descript{NIHR Career Development Fellowship | 2018-2021}
-Lead-applicant | £483,000 - (submitted; first round successful)
 
 \sectionsep
-
-\descript{NIHR Invention for Innovation (I4I) award | 2017-2020}
-Co-applicant | £1,201,674
-
-\sectionsep
-
-\descript{NIHR Postdoctoral Fellowship | 2012-2015}
-Lead-applicant | £242,628
-
 
 \end{minipage}
 
@@ -206,6 +208,42 @@ Lead-applicant | £242,628
 \end{tightemize}
 
 \newpage
+
+\section{Grant Funding}
+\begin{table}[htp]
+\begin{center}
+\begin{tabular}{|P{0.15\linewidth}|P{0.5\linewidth}|P{0.1\linewidth}|P{0.15\linewidth}|}
+\hline
+\textbf{Name of funding organisation} & \textbf{Project Title} & \textbf{Amount awarded} & \textbf{Role} \\
+\hline
+National Institute of Health Research (NIHR) & Real-world testing of software for measuring bone disease on whole-body MRI in patients with prostate cancer and myeloma	& £1,955,730 & Co-Investigator \\
+\hline
+NIHR Biomedical Research Centre & PhD studentship: AI for improved patient outcome prediction in brain metastasis &	£149,770	& Principle Investigator\\
+\hline
+MedTech SuperConnector & Next generation whole-body imaging for painful metastatic disease & £88,740 & Principle Investigator \\
+\hline
+CRUK Centre for Convergence Science & PhD studentship: Combined functional MRI and super-resolution ultrasound for non-invasive monitoring of tumour blood delivery during radiotherapy of breast cancer & £149,770 & Co-Principal Investigator \\
+\hline
+CRUK Centre for Convergence Science & Application of novel 3D super-resolution ultrasound imaging for radiotherapy response assessment in breast tumours & £29,954 & Co-Principal Investigator \\
+\hline
+Global Challenges Research Fund & CCR5115 KORTUC phase II - Randomised phase II trial testing efficacy of intra-tumoural hydrogen peroxide as a radiation sensitiser in patients with locally advanced/recurrent breast cancer & £ 79,930 & Co-investigator \\
+\hline
+Cancer Research UK & Improving neoadjuvant therapy in high-risk sarcoma & £1,493,584 & Co-Investigator\\
+\hline
+Sarcoma UK & Using MRI for response assessment of soft-tissue sarcoma to pre-operative radiotherapy & £24,490 & Principle Investigator \\
+\hline
+Cancer Research UK & Predicting the location of lung nodule occurrence from low-dose CT using convolutional time-to-event networks (X-Net) & £99,470 & Principle Investigator \\
+\hline
+Institute of Cancer Research & Career Development Faculty start-up package & £950,000 & Principle Investigator \\
+\hline
+NIHR & Advanced computer diagnostics for whole body magnetic resonance imaging to improve management of patients with metastatic bone cancer & £1,201,674 & Co-Investigator \\
+\hline
+NIHR & Evaluating treatment response of whole-body metastases with multi-modality imaging & £242,628 & Principle Investigator \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
 
 \begin{refsection}[papers.bib]
 \nocite{*}
